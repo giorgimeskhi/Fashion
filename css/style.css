@@ -1,0 +1,370 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    height: 80px;
+    padding: 0 50px;
+    font-family: Poppins;
+    font-size: 16px;
+    margin-top: 10px;
+}
+.logo h1 {
+    color: black;
+    font-size: 24px;
+    margin: 0;
+    margin-left: 50px;
+}
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    list-style: none;
+    margin: 0;
+    margin-left: 900px;
+}
+.nav-links li {
+    margin: 0 10px;
+}
+.nav-links a {
+    color: black;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+} 
+.signup {
+    background-color: black;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.btn {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+.img{
+    position: absolute;
+    width: 1777px;
+    height: 550px;
+    left: 50%;
+    right: 50%;
+    transform: translate(-49%,10%);
+    z-index: -1;
+}
+.girl_img{
+    position: absolute;
+    left: 1250px;
+    top: 235px;
+    height: 450px;
+}
+.white_bg{
+    position: absolute;
+    left: 240px;
+    top: 217px;
+}
+.yellow_bg{
+    position: absolute;
+    left: 240px;
+    top: 355px;
+}
+h2{
+    position: absolute;
+    width: 225.15px;
+    left: 250px;
+    top: 217px;
+
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 45.6px;
+    line-height: 67px;
+
+
+
+    color: #000000;
+}
+.down_text{
+    position: absolute;
+    width: 400px;
+    left: 250px;
+    top: 520px;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+
+    color: #191818;
+}
+button{ 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+
+    position: absolute;
+    width: 120px;
+    height: 45px;
+    left: 250px;
+    top: 580px;
+    background-color: black;
+    padding: 10px 20px;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+}
+.logo_bg{
+    position: absolute;
+    width: 100%;
+    height: 82px;
+    left: 0px;
+    top: 770px;
+
+    background: #EBD96B;
+}
+.logos{
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    gap: 57.47px;
+
+    position: absolute;
+    width: 750px;
+    height: 33px;
+    left: 80px;
+    top: 790px;
+
+}
+.logo_icons{
+    padding: 85px;
+}
+.text_bg_little{
+    position: absolute;
+    width: 186px;
+    height: 34.94px;
+    left: 329px;
+    top: 950px;
+}
+h3{
+    position: absolute;
+    width: 411px;
+    height: 57.94px;
+    left: 104px;
+    top: 930px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 50px;
+
+    letter-spacing: 0.06em;
+    z-index: 1;
+}
+.section_girls{
+    width: 100%;
+    height: 2800px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+}
+.girl_photo{
+    padding: 72px;
+    margin-top: -100px;
+}
+.photo_title{
+    position: absolute;
+    margin-top: 1000px;
+    display: flex;
+    padding: 50px;
+    margin-left: 50px;
+}
+.clothes_text{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+.clothes_describe{
+    margin: 10px;
+    padding: 60px;
+    margin-top: 750px;
+    width: 610px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 50px;
+
+    letter-spacing: -0.04em;
+    color: #191919;
+}
+.text_bg_little1{
+    position: absolute;
+    width: 186px;
+    height: 34.94px;
+    left: 440px;
+    top: 2020px;
+}
+.young{
+    position: absolute;
+    width: 611px;
+    height: 57.94px;
+    left: 95px;
+    top: 2000px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 50px;
+
+    letter-spacing: 0.06em;
+    z-index: 1;
+}
+.section_girls1{
+    width: 100%;
+    margin-top: -580px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+}
+.girl_photo1{
+    padding: 52px;
+    margin-top: -200px;
+}
+.photo_title1{
+    position: absolute;
+    margin-top: 2000px;
+    display: flex;
+    padding: 50px;
+    margin-left: 50px;
+}
+.clothes_text1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+.clothes_describe1{
+    margin: 10px;
+    padding: 45px;
+    margin-top: 520px;
+    width: 610px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 50px;
+
+    letter-spacing: -0.04em;
+    color: #191919;
+}
+.all_under{
+    margin-left: 320px;
+}
+.yellow_section{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.bg_yellow{
+    width: 100%;
+    margin-top: 100px;
+    position: absolute;
+}
+h4{
+    position: absolute;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 55px;
+    line-height: 70px;
+
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #FFFFFF;
+
+    margin-top: 250px;
+    width: 1050px;
+    height: 100px;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%,50%);
+}
+.text_onyellow{
+    position: absolute;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 35px;
+    
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #FFFFFF;
+
+    margin-top: 450px;
+    width: 1050px;
+    height: 100px;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%,50%);
+}
+.email-form {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 50px;
+    left: 700px;
+    padding: 50px;
+    margin-top: 570px;
+}
+input[type="email"] {
+  flex: 1;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-right: none;
+  border-radius: 5px 0 0 5px;
+  height: 50px;
+}
+button[type="submit"] {
+    padding: 20px;
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    margin-left: 10px;
+    height: 50px;
+    margin-top: -555px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 35px;
+
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+
+    color: #FFFFFF;
+
+}
+  
